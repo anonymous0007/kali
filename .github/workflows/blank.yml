@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-push:
-    runs-on: kalilinux/kali-rolling
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
